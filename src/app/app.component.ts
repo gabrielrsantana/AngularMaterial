@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'material';
+  title = 'Angular Material';
+
+
 }
